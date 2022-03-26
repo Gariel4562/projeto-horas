@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&display=swap');
+/* Zerar tudo para ir colocando o espaço que eu quiser */ 
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+/* "Variaveis" que usarei no projeto */ 
+
+
+:root {
+    --font-destaque : 'Hurricane', cursive;
+    --font-padrao : Arial, Helvetica, sans-serif;
+}
+
+/* configurações header */ 
+
+h1 {
+    font-family: var(--font-destaque);
+    font-size: 4em;
+    text-align: center;
+    background-image: linear-gradient(to right, transparent, aqua, transparent);
+    color: black;
+}
+
+header p {
+    font-family: var(--font-padrao);
+    font-size: 1em;
+    text-align: center;
+    margin-top:20px;
+    background-image : linear-gradient(to right, transparent, aquamarine, transparent);
+}
+
+/* configurações body */ 
+
+
+
+
+
