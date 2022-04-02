@@ -30,9 +30,56 @@ header p {
     text-align: center;
     margin-top:20px;
     background-image : linear-gradient(to right, transparent, aquamarine, transparent);
+    margin-bottom:20px;
 }
 
-/* configurações body */ 
+
+/* configurações body */
+
+article section #msg {
+    text-align: center;
+}
+
+article section {
+    width:600px;
+    height:500px;
+    background-color: white;
+    margin:auto;
+    border-radius: 30px;
+
+}
+
+article section #img {
+    text-align: center;
+
+
+
+}
+
+article section #foto {
+    text-align: center;
+    margin-top:100px;
+}
+
+article section #foto img {
+    width:100%;
+    border-radius: 50%;
+    height:250px;
+    width:250px;
+}
+
+/* configurações footer */
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top:20px;
+}
+
+footer a {
+    text-decoration: none;
+}
 
 
 
