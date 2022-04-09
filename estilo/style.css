@@ -37,7 +37,7 @@ header p {
 /* configurações body */
 
 article section #msg {
-    text-align: center;
+       text-align: center; 
 }
 
 article section {
@@ -51,6 +51,7 @@ article section {
 
 article section #img {
     text-align: center;
+    
 
 
 

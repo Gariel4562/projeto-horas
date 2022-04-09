@@ -3,11 +3,11 @@ function carregar() {
     var img = window.document.getElementById('img')
     var data = new Date()
     var hora = data.getHours()
-   // var hora = 18
+    //var hora = 0
     
     msg.innerHTML = `Agora são ${hora} horas.`
     
-    if (hora >= 0 && hora < 12) {
+    if (hora >= 4 && hora < 12) {
         //bom dia
         img.src = 'imagens/pexels-ave-calvar-martinez-3030459.jpg'
         document.body.style.background = '#e2cd9f'
